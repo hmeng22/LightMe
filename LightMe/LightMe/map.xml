@@ -1,0 +1,1967 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+ sxpace = 0,
+ LxIGHT = 1,
+ BxRIGHT = -1,
+ BxRICK = 9,
+ ZxERO = 10,
+ OxNE = 11,
+ TxWO = 12,
+ TxHREE = 13,
+ FxOUR = 14,
+ -->
+<map>
+    <level id="1" width="10" height="10">
+        <cube row="0" column="0">
+            <type>12</type>
+        </cube>
+        <cube row="0" column="9">
+            <type>9</type>
+        </cube>
+        <cube row="2" column="6">
+            <type>9</type>
+        </cube>
+        <cube row="3" column="3">
+            <type>10</type>
+        </cube>
+        <cube row="4" column="9">
+            <type>13</type>
+        </cube>
+        <cube row="5" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="6" column="6">
+            <type>9</type>
+        </cube>
+        <cube row="7" column="3">
+            <type>14</type>
+        </cube>
+        <cube row="9" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="9" column="9">
+            <type>9</type>
+        </cube>
+    </level>
+    <level id="2" width="10" height="10">
+        <cube row="0" column="0">
+            <type>12</type>
+        </cube>
+        <cube row="0" column="9">
+            <type>9</type>
+        </cube>
+        <cube row="2" column="6">
+            <type>9</type>
+        </cube>
+        <cube row="3" column="3">
+            <type>10</type>
+        </cube>
+        <cube row="4" column="9">
+            <type>13</type>
+        </cube>
+        <cube row="5" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="6" column="6">
+            <type>11</type>
+        </cube>
+        <cube row="7" column="3">
+            <type>14</type>
+        </cube>
+        <cube row="9" column="0">
+            <type>9</type>
+        </cube>
+    </level>
+    <level id="3" width="10" height="10">
+        <cube row="2" column="1">
+            <type>10</type>
+        </cube>
+        <cube row="2" column="8">
+            <type>13</type>
+        </cube>
+        <cube row="4" column="4">
+            <type>12</type>
+        </cube>
+        <cube row="4" column="5">
+            <type>9</type>
+        </cube>
+        <cube row="5" column="4">
+            <type>9</type>
+        </cube>
+        <cube row="5" column="5">
+            <type>11</type>
+        </cube>
+        <cube row="7" column="1">
+            <type>14</type>
+        </cube>
+        <cube row="8" column="7">
+            <type>12</type>
+        </cube>
+    </level>
+    <level id="4" width="10" height="10">
+        <cube row="0" column="1">
+            <type>9</type>
+        </cube>
+        <cube row="0" column="8">
+            <type>9</type>
+        </cube>
+        <cube row="1" column="1">
+            <type>11</type>
+        </cube>
+        <cube row="1" column="4">
+            <type>11</type>
+        </cube>
+        <cube row="1" column="8">
+            <type>11</type>
+        </cube>
+        <cube row="3" column="3">
+            <type>14</type>
+        </cube>
+        <cube row="6" column="6">
+            <type>11</type>
+        </cube>
+        <cube row="8" column="1">
+            <type>11</type>
+        </cube>
+        <cube row="8" column="5">
+            <type>12</type>
+        </cube>
+        <cube row="8" column="8">
+            <type>11</type>
+        </cube>
+        <cube row="9" column="1">
+            <type>9</type>
+        </cube>
+        <cube row="9" column="8">
+            <type>9</type>
+        </cube>
+    </level>
+    <level id="5" width="10" height="10">
+        <cube row="1" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="1" column="2">
+            <type>9</type>
+        </cube>
+        <cube row="1" column="4">
+            <type>9</type>
+        </cube>
+        <cube row="2" column="6">
+            <type>13</type>
+        </cube>
+        <cube row="2" column="8">
+            <type>11</type>
+        </cube>
+        <cube row="3" column="0">
+            <type>13</type>
+        </cube>
+        <cube row="3" column="2">
+            <type>9</type>
+        </cube>
+        <cube row="3" column="4">
+            <type>9</type>
+        </cube>
+        <cube row="6" column="5">
+            <type>9</type>
+        </cube>
+        <cube row="6" column="7">
+            <type>9</type>
+        </cube>
+        <cube row="6" column="9">
+            <type>9</type>
+        </cube>
+        <cube row="7" column="1">
+            <type>10</type>
+        </cube>
+        <cube row="7" column="3">
+            <type>12</type>
+        </cube>
+        <cube row="8" column="5">
+            <type>9</type>
+        </cube>
+        <cube row="8" column="7">
+            <type>13</type>
+        </cube>
+        <cube row="8" column="9">
+            <type>9</type>
+        </cube>
+    </level>
+    <level id="6" width="10" height="10">
+        <cube row="1" column="2">
+            <type>11</type>
+        </cube>
+        <cube row="2" column="8">
+            <type>12</type>
+        </cube>
+        <cube row="3" column="5">
+            <type>10</type>
+        </cube>
+        <cube row="4" column="3">
+            <type>11</type>
+        </cube>
+        <cube row="5" column="6">
+            <type>14</type>
+        </cube>
+        <cube row="6" column="4">
+            <type>10</type>
+        </cube>
+        <cube row="7" column="1">
+            <type>14</type>
+        </cube>
+        <cube row="8" column="7">
+            <type>12</type>
+        </cube>
+    </level>
+    <level id="7" width="10" height="10">
+        <cube row="0" column="0">
+            <type>11</type>
+        </cube>
+        <cube row="0" column="2">
+            <type>9</type>
+        </cube>
+        <cube row="0" column="9">
+            <type>11</type>
+        </cube>
+        <cube row="1" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="2" column="2">
+            <type>11</type>
+        </cube>
+        <cube row="2" column="5">
+            <type>9</type>
+        </cube>
+        <cube row="2" column="7">
+            <type>11</type>
+        </cube>
+        <cube row="3" column="2">
+            <type>9</type>
+        </cube>
+        <cube row="3" column="5">
+            <type>11</type>
+        </cube>
+        <cube row="3" column="7">
+            <type>9</type>
+        </cube>
+        <cube row="6" column="2">
+            <type>11</type>
+        </cube>
+        <cube row="6" column="4">
+            <type>11</type>
+        </cube>
+        <cube row="6" column="7">
+            <type>9</type>
+        </cube>
+        <cube row="7" column="2">
+            <type>9</type>
+        </cube>
+        <cube row="7" column="7">
+            <type>9</type>
+        </cube>
+        <cube row="8" column="9">
+            <type>11</type>
+        </cube>
+        <cube row="9" column="0">
+            <type>11</type>
+        </cube>
+        <cube row="9" column="7">
+            <type>11</type>
+        </cube>
+        <cube row="9" column="9">
+            <type>9</type>
+        </cube>
+    </level>
+    <level id="8" width="10" height="10">
+        <cube row="0" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="0" column="4">
+            <type>13</type>
+        </cube>
+        <cube row="0" column="9">
+            <type>9</type>
+        </cube>
+        <cube row="3" column="3">
+            <type>10</type>
+        </cube>
+        <cube row="3" column="7">
+            <type>14</type>
+        </cube>
+        <cube row="6" column="2">
+            <type>11</type>
+        </cube>
+        <cube row="6" column="6">
+            <type>9</type>
+        </cube>
+        <cube row="9" column="0">
+            <type>12</type>
+        </cube>
+        <cube row="9" column="5">
+            <type>9</type>
+        </cube>
+        <cube row="9" column="9">
+            <type>9</type>
+        </cube>
+    </level>
+    <level id="9" width="10" height="10">
+        <cube row="0" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="0" column="4">
+            <type>9</type>
+        </cube>
+        <cube row="1" column="4">
+            <type>9</type>
+        </cube>
+        <cube row="1" column="7">
+            <type>11</type>
+        </cube>
+        <cube row="1" column="8">
+            <type>9</type>
+        </cube>
+        <cube row="2" column="2">
+            <type>14</type>
+        </cube>
+        <cube row="2" column="7">
+            <type>9</type>
+        </cube>
+        <cube row="2" column="8">
+            <type>11</type>
+        </cube>
+        <cube row="3" column="4">
+            <type>9</type>
+        </cube>
+        <cube row="3" column="5">
+            <type>11</type>
+        </cube>
+        <cube row="4" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="4" column="1">
+            <type>9</type>
+        </cube>
+        <cube row="5" column="8">
+            <type>13</type>
+        </cube>
+        <cube row="5" column="9">
+            <type>9</type>
+        </cube>
+        <cube row="6" column="4">
+            <type>11</type>
+        </cube>
+        <cube row="6" column="5">
+            <type>9</type>
+        </cube>
+        <cube row="7" column="1">
+            <type>9</type>
+        </cube>
+        <cube row="7" column="2">
+            <type>9</type>
+        </cube>
+        <cube row="7" column="7">
+            <type>11</type>
+        </cube>
+        <cube row="8" column="1">
+            <type>12</type>
+        </cube>
+        <cube row="8" column="2">
+            <type>9</type>
+        </cube>
+        <cube row="8" column="5">
+            <type>9</type>
+        </cube>
+        <cube row="9" column="5">
+            <type>9</type>
+        </cube>
+        <cube row="9" column="9">
+            <type>9</type>
+        </cube>
+    </level>
+    <level id="10" width="10" height="10">
+        <cube row="0" column="0">
+            <type>12</type>
+        </cube>
+        <cube row="1" column="3">
+            <type>9</type>
+        </cube>
+        <cube row="1" column="7">
+            <type>13</type>
+        </cube>
+        <cube row="4" column="1">
+            <type>9</type>
+        </cube>
+        <cube row="4" column="5">
+            <type>10</type>
+        </cube>
+        <cube row="5" column="4">
+            <type>9</type>
+        </cube>
+        <cube row="5" column="8">
+            <type>11</type>
+        </cube>
+        <cube row="8" column="2">
+            <type>14</type>
+        </cube>
+        <cube row="8" column="6">
+            <type>9</type>
+        </cube>
+        <cube row="9" column="9">
+            <type>9</type>
+        </cube>
+    </level>
+    <level id="11" width="10" height="10">
+        <cube row="0" column="9">
+            <type>9</type>
+        </cube>
+        <cube row="1" column="0">
+            <type>10</type>
+        </cube>
+        <cube row="1" column="6">
+            <type>12</type>
+        </cube>
+        <cube row="2" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="2" column="7">
+            <type>13</type>
+        </cube>
+        <cube row="4" column="3">
+            <type>14</type>
+        </cube>
+        <cube row="5" column="6">
+            <type>12</type>
+        </cube>
+        <cube row="7" column="2">
+            <type>12</type>
+        </cube>
+        <cube row="7" column="9">
+            <type>9</type>
+        </cube>
+        <cube row="8" column="3">
+            <type>11</type>
+        </cube>
+        <cube row="8" column="9">
+            <type>9</type>
+        </cube>
+        <cube row="9" column="0">
+            <type>9</type>
+        </cube>
+    </level>
+    <level id="12" width="10" height="10">
+        <cube row="1" column="1">
+            <type>10</type>
+        </cube>
+        <cube row="1" column="4">
+            <type>11</type>
+        </cube>
+        <cube row="3" column="1">
+            <type>11</type>
+        </cube>
+        <cube row="3" column="4">
+            <type>14</type>
+        </cube>
+        <cube row="6" column="5">
+            <type>9</type>
+        </cube>
+        <cube row="6" column="8">
+            <type>12</type>
+        </cube>
+        <cube row="8" column="1">
+            <type>13</type>
+        </cube>
+        <cube row="8" column="5">
+            <type>11</type>
+        </cube>
+        <cube row="8" column="8">
+            <type>11</type>
+        </cube>
+    </level>
+    <level id="13" width="10" height="10">
+        <cube row="0" column="1">
+            <type>9</type>
+        </cube>
+        <cube row="0" column="2">
+            <type>9</type>
+        </cube>
+        <cube row="0" column="3">
+            <type>9</type>
+        </cube>
+        <cube row="0" column="4">
+            <type>11</type>
+        </cube>
+        <cube row="0" column="8">
+            <type>11</type>
+        </cube>
+        <cube row="1" column="7">
+            <type>9</type>
+        </cube>
+        <cube row="1" column="8">
+            <type>9</type>
+        </cube>
+        <cube row="2" column="1">
+            <type>11</type>
+        </cube>
+        <cube row="2" column="5">
+            <type>9</type>
+        </cube>
+        <cube row="2" column="7">
+            <type>13</type>
+        </cube>
+        <cube row="3" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="3" column="1">
+            <type>9</type>
+        </cube>
+        <cube row="3" column="4">
+            <type>9</type>
+        </cube>
+        <cube row="3" column="5">
+            <type>9</type>
+        </cube>
+        <cube row="4" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="4" column="4">
+            <type>9</type>
+        </cube>
+        <cube row="4" column="7">
+            <type>9</type>
+        </cube>
+        <cube row="5" column="2">
+            <type>14</type>
+        </cube>
+        <cube row="5" column="5">
+            <type>9</type>
+        </cube>
+        <cube row="5" column="9">
+            <type>11</type>
+        </cube>
+        <cube row="6" column="4">
+            <type>9</type>
+        </cube>
+        <cube row="6" column="5">
+            <type>9</type>
+        </cube>
+        <cube row="6" column="8">
+            <type>11</type>
+        </cube>
+        <cube row="6" column="9">
+            <type>9</type>
+        </cube>
+        <cube row="7" column="2">
+            <type>9</type>
+        </cube>
+        <cube row="7" column="4">
+            <type>12</type>
+        </cube>
+        <cube row="7" column="8">
+            <type>9</type>
+        </cube>
+        <cube row="8" column="1">
+            <type>9</type>
+        </cube>
+        <cube row="8" column="2">
+            <type>9</type>
+        </cube>
+        <cube row="9" column="1">
+            <type>12</type>
+        </cube>
+        <cube row="9" column="5">
+            <type>9</type>
+        </cube>
+        <cube row="9" column="6">
+            <type>9</type>
+        </cube>
+        <cube row="9" column="7">
+            <type>9</type>
+        </cube>
+        <cube row="9" column="8">
+            <type>11</type>
+        </cube>
+    </level>
+    <level id="14" width="10" height="10">
+        <cube row="0" column="4">
+            <type>9</type>
+        </cube>
+        <cube row="1" column="1">
+            <type>12</type>
+        </cube>
+        <cube row="1" column="4">
+            <type>9</type>
+        </cube>
+        <cube row="1" column="6">
+            <type>9</type>
+        </cube>
+        <cube row="1" column="7">
+            <type>9</type>
+        </cube>
+        <cube row="2" column="2">
+            <type>14</type>
+        </cube>
+        <cube row="2" column="4">
+            <type>9</type>
+        </cube>
+        <cube row="2" column="8">
+            <type>10</type>
+        </cube>
+        <cube row="3" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="3" column="1">
+            <type>9</type>
+        </cube>
+        <cube row="3" column="5">
+            <type>9</type>
+        </cube>
+        <cube row="3" column="7">
+            <type>9</type>
+        </cube>
+        <cube row="4" column="6">
+            <type>14</type>
+        </cube>
+        <cube row="5" column="3">
+            <type>9</type>
+        </cube>
+        <cube row="6" column="2">
+            <type>9</type>
+        </cube>
+        <cube row="6" column="4">
+            <type>9</type>
+        </cube>
+        <cube row="6" column="8">
+            <type>9</type>
+        </cube>
+        <cube row="6" column="9">
+            <type>9</type>
+        </cube>
+        <cube row="7" column="1">
+            <type>14</type>
+        </cube>
+        <cube row="7" column="5">
+            <type>9</type>
+        </cube>
+        <cube row="7" column="7">
+            <type>9</type>
+        </cube>
+        <cube row="8" column="2">
+            <type>9</type>
+        </cube>
+        <cube row="8" column="3">
+            <type>10</type>
+        </cube>
+        <cube row="8" column="5">
+            <type>9</type>
+        </cube>
+        <cube row="8" column="8">
+            <type>14</type>
+        </cube>
+        <cube row="9" column="5">
+            <type>9</type>
+        </cube>
+    </level>
+    <level id="15" width="10" height="10">
+        <cube row="1" column="1">
+            <type>9</type>
+        </cube>
+        <cube row="1" column="5">
+            <type>12</type>
+        </cube>
+        <cube row="2" column="7">
+            <type>12</type>
+        </cube>
+        <cube row="3" column="2">
+            <type>12</type>
+        </cube>
+        <cube row="3" column="6">
+            <type>9</type>
+        </cube>
+        <cube row="4" column="1">
+            <type>11</type>
+        </cube>
+        <cube row="4" column="4">
+            <type>14</type>
+        </cube>
+        <cube row="5" column="5">
+            <type>9</type>
+        </cube>
+        <cube row="5" column="8">
+            <type>11</type>
+        </cube>
+        <cube row="6" column="3">
+            <type>9</type>
+        </cube>
+        <cube row="6" column="7">
+            <type>13</type>
+        </cube>
+        <cube row="7" column="2">
+            <type>12</type>
+        </cube>
+        <cube row="8" column="4">
+            <type>12</type>
+        </cube>
+        <cube row="8" column="8">
+            <type>10</type>
+        </cube>
+    </level>
+    <level id="16" width="10" height="10">
+        <cube row="1" column="1">
+            <type>9</type>
+        </cube>
+        <cube row="1" column="2">
+            <type>9</type>
+        </cube>
+        <cube row="1" column="4">
+            <type>12</type>
+        </cube>
+        <cube row="1" column="6">
+            <type>9</type>
+        </cube>
+        <cube row="1" column="7">
+            <type>9</type>
+        </cube>
+        <cube row="1" column="8">
+            <type>11</type>
+        </cube>
+        <cube row="2" column="2">
+            <type>11</type>
+        </cube>
+        <cube row="2" column="4">
+            <type>9</type>
+        </cube>
+        <cube row="2" column="6">
+            <type>10</type>
+        </cube>
+        <cube row="2" column="8">
+            <type>9</type>
+        </cube>
+        <cube row="3" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="3" column="1">
+            <type>9</type>
+        </cube>
+        <cube row="3" column="2">
+            <type>9</type>
+        </cube>
+        <cube row="3" column="4">
+            <type>11</type>
+        </cube>
+        <cube row="3" column="8">
+            <type>9</type>
+        </cube>
+        <cube row="4" column="5">
+            <type>12</type>
+        </cube>
+        <cube row="4" column="6">
+            <type>9</type>
+        </cube>
+        <cube row="4" column="7">
+            <type>9</type>
+        </cube>
+        <cube row="4" column="8">
+            <type>11</type>
+        </cube>
+        <cube row="5" column="1">
+            <type>9</type>
+        </cube>
+        <cube row="5" column="2">
+            <type>9</type>
+        </cube>
+        <cube row="5" column="3">
+            <type>9</type>
+        </cube>
+        <cube row="5" column="4">
+            <type>13</type>
+        </cube>
+        <cube row="6" column="1">
+            <type>9</type>
+        </cube>
+        <cube row="6" column="5">
+            <type>9</type>
+        </cube>
+        <cube row="6" column="7">
+            <type>9</type>
+        </cube>
+        <cube row="6" column="8">
+            <type>9</type>
+        </cube>
+        <cube row="6" column="9">
+            <type>9</type>
+        </cube>
+        <cube row="7" column="1">
+            <type>9</type>
+        </cube>
+        <cube row="7" column="3">
+            <type>9</type>
+        </cube>
+        <cube row="7" column="5">
+            <type>9</type>
+        </cube>
+        <cube row="7" column="7">
+            <type>9</type>
+        </cube>
+        <cube row="8" column="1">
+            <type>11</type>
+        </cube>
+        <cube row="8" column="2">
+            <type>9</type>
+        </cube>
+        <cube row="8" column="3">
+            <type>9</type>
+        </cube>
+        <cube row="8" column="7">
+            <type>9</type>
+        </cube>
+        <cube row="8" column="8">
+            <type>10</type>
+        </cube>
+    </level>
+    <level id="17" width="10" height="10">
+        <cube row="0" column="1">
+            <type>10</type>
+        </cube>
+        <cube row="1" column="2">
+            <type>9</type>
+        </cube>
+        <cube row="2" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="2" column="8">
+            <type>12</type>
+        </cube>
+        <cube row="3" column="1">
+            <type>11</type>
+        </cube>
+        <cube row="3" column="3">
+            <type>13</type>
+        </cube>
+        <cube row="4" column="4">
+            <type>14</type>
+        </cube>
+        <cube row="5" column="5">
+            <type>9</type>
+        </cube>
+        <cube row="6" column="6">
+            <type>11</type>
+        </cube>
+        <cube row="6" column="8">
+            <type>9</type>
+        </cube>
+        <cube row="7" column="1">
+            <type>10</type>
+        </cube>
+        <cube row="7" column="9">
+            <type>13</type>
+        </cube>
+        <cube row="8" column="7">
+            <type>12</type>
+        </cube>
+        <cube row="9" column="8">
+            <type>9</type>
+        </cube>
+    </level>
+    <level id="18" width="10" height="10">
+        <cube row="0" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="0" column="1">
+            <type>9</type>
+        </cube>
+        <cube row="0" column="2">
+            <type>9</type>
+        </cube>
+        <cube row="0" column="3">
+            <type>9</type>
+        </cube>
+        <cube row="0" column="7">
+            <type>12</type>
+        </cube>
+        <cube row="0" column="8">
+            <type>9</type>
+        </cube>
+        <cube row="0" column="9">
+            <type>9</type>
+        </cube>
+        <cube row="1" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="1" column="1">
+            <type>9</type>
+        </cube>
+        <cube row="1" column="8">
+            <type>9</type>
+        </cube>
+        <cube row="1" column="9">
+            <type>9</type>
+        </cube>
+        <cube row="2" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="2" column="9">
+            <type>10</type>
+        </cube>
+        <cube row="3" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="4" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="5" column="9">
+            <type>9</type>
+        </cube>
+        <cube row="6" column="3">
+            <type>13</type>
+        </cube>
+        <cube row="6" column="9">
+            <type>9</type>
+        </cube>
+        <cube row="7" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="7" column="9">
+            <type>9</type>
+        </cube>
+        <cube row="8" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="8" column="1">
+            <type>9</type>
+        </cube>
+        <cube row="8" column="8">
+            <type>11</type>
+        </cube>
+        <cube row="8" column="9">
+            <type>9</type>
+        </cube>
+        <cube row="9" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="9" column="1">
+            <type>9</type>
+        </cube>
+        <cube row="9" column="2">
+            <type>10</type>
+        </cube>
+        <cube row="9" column="6">
+            <type>10</type>
+        </cube>
+        <cube row="9" column="7">
+            <type>9</type>
+        </cube>
+        <cube row="9" column="8">
+            <type>9</type>
+        </cube>
+        <cube row="9" column="9">
+            <type>9</type>
+        </cube>
+    </level>
+    <level id="19" width="10" height="10">
+        <cube row="0" column="1">
+            <type>12</type>
+        </cube>
+        <cube row="0" column="6">
+            <type>9</type>
+        </cube>
+        <cube row="1" column="4">
+            <type>11</type>
+        </cube>
+        <cube row="1" column="9">
+            <type>9</type>
+        </cube>
+        <cube row="2" column="2">
+            <type>9</type>
+        </cube>
+        <cube row="3" column="4">
+            <type>9</type>
+        </cube>
+        <cube row="3" column="7">
+            <type>11</type>
+        </cube>
+        <cube row="4" column="3">
+            <type>12</type>
+        </cube>
+        <cube row="4" column="9">
+            <type>11</type>
+        </cube>
+        <cube row="5" column="0">
+            <type>11</type>
+        </cube>
+        <cube row="5" column="6">
+            <type>14</type>
+        </cube>
+        <cube row="6" column="2">
+            <type>12</type>
+        </cube>
+        <cube row="6" column="5">
+            <type>9</type>
+        </cube>
+        <cube row="7" column="7">
+            <type>9</type>
+        </cube>
+        <cube row="8" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="8" column="5">
+            <type>11</type>
+        </cube>
+        <cube row="9" column="3">
+            <type>9</type>
+        </cube>
+        <cube row="9" column="8">
+            <type>13</type>
+        </cube>
+    </level>
+    <level id="20" width="10" height="10">
+        <cube row="0" column="5">
+            <type>9</type>
+        </cube>
+        <cube row="0" column="6">
+            <type>9</type>
+        </cube>
+        <cube row="0" column="7">
+            <type>9</type>
+        </cube>
+        <cube row="0" column="8">
+            <type>9</type>
+        </cube>
+        <cube row="0" column="9">
+            <type>9</type>
+        </cube>
+        <cube row="1" column="0">
+            <type>11</type>
+        </cube>
+        <cube row="1" column="6">
+            <type>11</type>
+        </cube>
+        <cube row="2" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="2" column="1">
+            <type>12</type>
+        </cube>
+        <cube row="3" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="3" column="1">
+            <type>9</type>
+        </cube>
+        <cube row="3" column="2">
+            <type>12</type>
+        </cube>
+        <cube row="3" column="9">
+            <type>9</type>
+        </cube>
+        <cube row="4" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="4" column="1">
+            <type>10</type>
+        </cube>
+        <cube row="4" column="9">
+            <type>9</type>
+        </cube>
+        <cube row="5" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="5" column="8">
+            <type>10</type>
+        </cube>
+        <cube row="5" column="9">
+            <type>9</type>
+        </cube>
+        <cube row="6" column="0">
+            <type>10</type>
+        </cube>
+        <cube row="6" column="7">
+            <type>9</type>
+        </cube>
+        <cube row="6" column="8">
+            <type>9</type>
+        </cube>
+        <cube row="6" column="9">
+            <type>9</type>
+        </cube>
+        <cube row="7" column="8">
+            <type>11</type>
+        </cube>
+        <cube row="7" column="9">
+            <type>9</type>
+        </cube>
+        <cube row="8" column="3">
+            <type>11</type>
+        </cube>
+        <cube row="8" column="9">
+            <type>9</type>
+        </cube>
+        <cube row="9" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="9" column="1">
+            <type>9</type>
+        </cube>
+        <cube row="9" column="2">
+            <type>9</type>
+        </cube>
+        <cube row="9" column="3">
+            <type>9</type>
+        </cube>
+        <cube row="9" column="4">
+            <type>11</type>
+        </cube>
+    </level>
+    <level id="21" width="10" height="10">
+        <cube row="0" column="6">
+            <type>9</type>
+        </cube>
+        <cube row="1" column="2">
+            <type>9</type>
+        </cube>
+        <cube row="1" column="3">
+            <type>11</type>
+        </cube>
+        <cube row="2" column="2">
+            <type>11</type>
+        </cube>
+        <cube row="2" column="8">
+            <type>9</type>
+        </cube>
+        <cube row="2" column="9">
+            <type>11</type>
+        </cube>
+        <cube row="3" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="3" column="5">
+            <type>11</type>
+        </cube>
+        <cube row="4" column="5">
+            <type>11</type>
+        </cube>
+        <cube row="4" column="6">
+            <type>12</type>
+        </cube>
+        <cube row="5" column="3">
+            <type>13</type>
+        </cube>
+        <cube row="5" column="4">
+            <type>9</type>
+        </cube>
+        <cube row="6" column="4">
+            <type>9</type>
+        </cube>
+        <cube row="6" column="9">
+            <type>12</type>
+        </cube>
+        <cube row="7" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="7" column="1">
+            <type>11</type>
+        </cube>
+        <cube row="7" column="7">
+            <type>9</type>
+        </cube>
+        <cube row="8" column="6">
+            <type>11</type>
+        </cube>
+        <cube row="8" column="7">
+            <type>9</type>
+        </cube>
+        <cube row="9" column="3">
+            <type>11</type>
+        </cube>
+    </level>
+    <level id="22" width="10" height="10">
+        <cube row="0" column="3">
+            <type>9</type>
+        </cube>
+        <cube row="1" column="1">
+            <type>14</type>
+        </cube>
+        <cube row="1" column="8">
+            <type>12</type>
+        </cube>
+        <cube row="2" column="6">
+            <type>9</type>
+        </cube>
+        <cube row="3" column="1">
+            <type>11</type>
+        </cube>
+        <cube row="3" column="5">
+            <type>9</type>
+        </cube>
+        <cube row="4" column="4">
+            <type>12</type>
+        </cube>
+        <cube row="4" column="8">
+            <type>9</type>
+        </cube>
+        <cube row="5" column="1">
+            <type>9</type>
+        </cube>
+        <cube row="5" column="5">
+            <type>12</type>
+        </cube>
+        <cube row="6" column="4">
+            <type>9</type>
+        </cube>
+        <cube row="6" column="8">
+            <type>9</type>
+        </cube>
+        <cube row="7" column="3">
+            <type>11</type>
+        </cube>
+        <cube row="8" column="1">
+            <type>11</type>
+        </cube>
+        <cube row="8" column="8">
+            <type>10</type>
+        </cube>
+        <cube row="9" column="6">
+            <type>9</type>
+        </cube>
+    </level>
+    <level id="23" width="10" height="10">
+        <cube row="0" column="0">
+            <type>11</type>
+        </cube>
+        <cube row="0" column="3">
+            <type>11</type>
+        </cube>
+        <cube row="0" column="6">
+            <type>11</type>
+        </cube>
+        <cube row="0" column="9">
+            <type>9</type>
+        </cube>
+        <cube row="1" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="1" column="3">
+            <type>10</type>
+        </cube>
+        <cube row="1" column="6">
+            <type>10</type>
+        </cube>
+        <cube row="2" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="2" column="3">
+            <type>10</type>
+        </cube>
+        <cube row="3" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="4" column="6">
+            <type>10</type>
+        </cube>
+        <cube row="4" column="9">
+            <type>11</type>
+        </cube>
+        <cube row="5" column="0">
+            <type>11</type>
+        </cube>
+        <cube row="5" column="3">
+            <type>10</type>
+        </cube>
+        <cube row="6" column="9">
+            <type>11</type>
+        </cube>
+        <cube row="7" column="6">
+            <type>11</type>
+        </cube>
+        <cube row="7" column="9">
+            <type>10</type>
+        </cube>
+        <cube row="8" column="3">
+            <type>11</type>
+        </cube>
+        <cube row="8" column="6">
+            <type>10</type>
+        </cube>
+        <cube row="8" column="9">
+            <type>10</type>
+        </cube>
+        <cube row="9" column="0">
+            <type>11</type>
+        </cube>
+        <cube row="9" column="3">
+            <type>10</type>
+        </cube>
+        <cube row="9" column="6">
+            <type>10</type>
+        </cube>
+        <cube row="9" column="9">
+            <type>10</type>
+        </cube>
+    </level>
+    <level id="24" width="10" height="10">
+        <cube row="0" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="0" column="4">
+            <type>9</type>
+        </cube>
+        <cube row="0" column="5">
+            <type>9</type>
+        </cube>
+        <cube row="0" column="9">
+            <type>9</type>
+        </cube>
+        <cube row="1" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="1" column="9">
+            <type>9</type>
+        </cube>
+        <cube row="2" column="3">
+            <type>11</type>
+        </cube>
+        <cube row="2" column="7">
+            <type>9</type>
+        </cube>
+        <cube row="3" column="2">
+            <type>9</type>
+        </cube>
+        <cube row="3" column="5">
+            <type>13</type>
+        </cube>
+        <cube row="4" column="0">
+            <type>10</type>
+        </cube>
+        <cube row="4" column="6">
+            <type>9</type>
+        </cube>
+        <cube row="4" column="9">
+            <type>9</type>
+        </cube>
+        <cube row="5" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="5" column="3">
+            <type>11</type>
+        </cube>
+        <cube row="5" column="9">
+            <type>9</type>
+        </cube>
+        <cube row="6" column="4">
+            <type>12</type>
+        </cube>
+        <cube row="6" column="7">
+            <type>9</type>
+        </cube>
+        <cube row="7" column="2">
+            <type>9</type>
+        </cube>
+        <cube row="7" column="6">
+            <type>10</type>
+        </cube>
+        <cube row="8" column="0">
+            <type>10</type>
+        </cube>
+        <cube row="8" column="9">
+            <type>9</type>
+        </cube>
+        <cube row="9" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="9" column="4">
+            <type>9</type>
+        </cube>
+        <cube row="9" column="5">
+            <type>11</type>
+        </cube>
+        <cube row="9" column="9">
+            <type>11</type>
+        </cube>
+    </level>
+    <level id="25" width="10" height="10">
+        <cube row="0" column="3">
+            <type>13</type>
+        </cube>
+        <cube row="0" column="9">
+            <type>9</type>
+        </cube>
+        <cube row="1" column="2">
+            <type>12</type>
+        </cube>
+        <cube row="1" column="5">
+            <type>9</type>
+        </cube>
+        <cube row="1" column="7">
+            <type>9</type>
+        </cube>
+        <cube row="2" column="4">
+            <type>9</type>
+        </cube>
+        <cube row="2" column="8">
+            <type>14</type>
+        </cube>
+        <cube row="3" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="3" column="3">
+            <type>11</type>
+        </cube>
+        <cube row="3" column="6">
+            <type>10</type>
+        </cube>
+        <cube row="4" column="1">
+            <type>12</type>
+        </cube>
+        <cube row="4" column="5">
+            <type>9</type>
+        </cube>
+        <cube row="5" column="4">
+            <type>9</type>
+        </cube>
+        <cube row="5" column="8">
+            <type>9</type>
+        </cube>
+        <cube row="6" column="3">
+            <type>11</type>
+        </cube>
+        <cube row="6" column="6">
+            <type>9</type>
+        </cube>
+        <cube row="6" column="9">
+            <type>12</type>
+        </cube>
+        <cube row="7" column="1">
+            <type>9</type>
+        </cube>
+        <cube row="7" column="5">
+            <type>9</type>
+        </cube>
+        <cube row="8" column="2">
+            <type>10</type>
+        </cube>
+        <cube row="8" column="4">
+            <type>11</type>
+        </cube>
+        <cube row="8" column="7">
+            <type>9</type>
+        </cube>
+        <cube row="9" column="0">
+            <type>12</type>
+        </cube>
+        <cube row="9" column="6">
+            <type>9</type>
+        </cube>
+    </level>
+    <level id="26" width="10" height="10">
+        <cube row="0" column="4">
+            <type>10</type>
+        </cube>
+        <cube row="0" column="5">
+            <type>9</type>
+        </cube>
+        <cube row="1" column="1">
+            <type>10</type>
+        </cube>
+        <cube row="1" column="2">
+            <type>10</type>
+        </cube>
+        <cube row="1" column="4">
+            <type>9</type>
+        </cube>
+        <cube row="1" column="5">
+            <type>11</type>
+        </cube>
+        <cube row="1" column="7">
+            <type>9</type>
+        </cube>
+        <cube row="1" column="8">
+            <type>11</type>
+        </cube>
+        <cube row="2" column="1">
+            <type>10</type>
+        </cube>
+        <cube row="2" column="2">
+            <type>9</type>
+        </cube>
+        <cube row="2" column="7">
+            <type>10</type>
+        </cube>
+        <cube row="2" column="8">
+            <type>9</type>
+        </cube>
+        <cube row="3" column="4">
+            <type>10</type>
+        </cube>
+        <cube row="3" column="5">
+            <type>9</type>
+        </cube>
+        <cube row="4" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="4" column="1">
+            <type>9</type>
+        </cube>
+        <cube row="4" column="3">
+            <type>9</type>
+        </cube>
+        <cube row="4" column="4">
+            <type>9</type>
+        </cube>
+        <cube row="4" column="5">
+            <type>9</type>
+        </cube>
+        <cube row="4" column="6">
+            <type>11</type>
+        </cube>
+        <cube row="4" column="8">
+            <type>11</type>
+        </cube>
+        <cube row="4" column="9">
+            <type>9</type>
+        </cube>
+        <cube row="5" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="5" column="1">
+            <type>10</type>
+        </cube>
+        <cube row="5" column="3">
+            <type>10</type>
+        </cube>
+        <cube row="5" column="4">
+            <type>9</type>
+        </cube>
+        <cube row="5" column="5">
+            <type>9</type>
+        </cube>
+        <cube row="5" column="6">
+            <type>9</type>
+        </cube>
+        <cube row="5" column="8">
+            <type>11</type>
+        </cube>
+        <cube row="5" column="9">
+            <type>9</type>
+        </cube>
+        <cube row="6" column="4">
+            <type>9</type>
+        </cube>
+        <cube row="6" column="5">
+            <type>10</type>
+        </cube>
+        <cube row="7" column="1">
+            <type>9</type>
+        </cube>
+        <cube row="7" column="2">
+            <type>9</type>
+        </cube>
+        <cube row="7" column="7">
+            <type>9</type>
+        </cube>
+        <cube row="7" column="8">
+            <type>11</type>
+        </cube>
+        <cube row="8" column="0">
+            <type>11</type>
+        </cube>
+        <cube row="8" column="2">
+            <type>10</type>
+        </cube>
+        <cube row="8" column="4">
+            <type>9</type>
+        </cube>
+        <cube row="8" column="5">
+            <type>9</type>
+        </cube>
+        <cube row="8" column="7">
+            <type>11</type>
+        </cube>
+        <cube row="8" column="8">
+            <type>10</type>
+        </cube>
+        <cube row="9" column="4">
+            <type>9</type>
+        </cube>
+        <cube row="9" column="5">
+            <type>9</type>
+        </cube>
+    </level>
+    <level id="27" width="10" height="10">
+        <cube row="0" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="0" column="5">
+            <type>11</type>
+        </cube>
+        <cube row="0" column="8">
+            <type>9</type>
+        </cube>
+        <cube row="0" column="9">
+            <type>9</type>
+        </cube>
+        <cube row="1" column="3">
+            <type>11</type>
+        </cube>
+        <cube row="1" column="9">
+            <type>9</type>
+        </cube>
+        <cube row="2" column="2">
+            <type>13</type>
+        </cube>
+        <cube row="3" column="1">
+            <type>12</type>
+        </cube>
+        <cube row="3" column="5">
+            <type>9</type>
+        </cube>
+        <cube row="3" column="6">
+            <type>12</type>
+        </cube>
+        <cube row="4" column="6">
+            <type>10</type>
+        </cube>
+        <cube row="4" column="9">
+            <type>9</type>
+        </cube>
+        <cube row="5" column="0">
+            <type>11</type>
+        </cube>
+        <cube row="5" column="3">
+            <type>9</type>
+        </cube>
+        <cube row="6" column="3">
+            <type>9</type>
+        </cube>
+        <cube row="6" column="4">
+            <type>12</type>
+        </cube>
+        <cube row="6" column="8">
+            <type>11</type>
+        </cube>
+        <cube row="7" column="7">
+            <type>11</type>
+        </cube>
+        <cube row="8" column="0">
+            <type>9</type>
+        </cube>
+        <cube row="8" column="6">
+            <type>9</type>
+        </cube>
+        <cube row="9" column="0"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="9" column="1"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="9" column="4"> 
+            <type>10</type> 
+        </cube>  
+        <cube row="9" column="9"> 
+            <type>9</type> 
+        </cube> 
+    </level>  
+    <level id="28" width="10" height="10">
+        <cube row="0" column="0"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="0" column="3"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="0" column="6"> 
+            <type>11</type> 
+        </cube>  
+        <cube row="0" column="9"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="1" column="4"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="1" column="7"> 
+            <type>11</type> 
+        </cube>  
+        <cube row="2" column="1"> 
+            <type>12</type> 
+        </cube>  
+        <cube row="2" column="4"> 
+            <type>13</type> 
+        </cube>  
+        <cube row="3" column="0"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="3" column="9"> 
+            <type>11</type> 
+        </cube>  
+        <cube row="4" column="5"> 
+            <type>10</type> 
+        </cube>  
+        <cube row="4" column="7"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="4" column="8"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="5" column="1"> 
+            <type>12</type> 
+        </cube>  
+        <cube row="5" column="2"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="5" column="4"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="6" column="0"> 
+            <type>12</type> 
+        </cube>  
+        <cube row="6" column="9"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="7" column="5"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="7" column="8"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="8" column="2"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="8" column="5"> 
+            <type>11</type> 
+        </cube>  
+        <cube row="9" column="0"> 
+            <type>11</type> 
+        </cube>  
+        <cube row="9" column="3"> 
+            <type>12</type> 
+        </cube>  
+        <cube row="9" column="6"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="9" column="9"> 
+            <type>10</type> 
+        </cube> 
+    </level>  
+    <level id="29" width="10" height="10">
+        <cube row="1" column="1"> 
+            <type>13</type> 
+        </cube>  
+        <cube row="1" column="3"> 
+            <type>13</type> 
+        </cube>  
+        <cube row="1" column="5"> 
+            <type>13</type> 
+        </cube>  
+        <cube row="1" column="7"> 
+            <type>12</type> 
+        </cube>  
+        <cube row="1" column="8"> 
+            <type>10</type> 
+        </cube>  
+        <cube row="2" column="0"> 
+            <type>12</type> 
+        </cube>  
+        <cube row="2" column="2"> 
+            <type>14</type> 
+        </cube>  
+        <cube row="2" column="6"> 
+            <type>14</type> 
+        </cube>  
+        <cube row="2" column="8"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="3" column="0"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="3" column="4"> 
+            <type>11</type> 
+        </cube>  
+        <cube row="4" column="2"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="4" column="6"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="4" column="8"> 
+            <type>11</type> 
+        </cube>  
+        <cube row="5" column="1"> 
+            <type>11</type> 
+        </cube>  
+        <cube row="5" column="3"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="5" column="7"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="6" column="5"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="6" column="9"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="7" column="1"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="7" column="3"> 
+            <type>13</type> 
+        </cube>  
+        <cube row="7" column="5"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="7" column="7"> 
+            <type>13</type> 
+        </cube>  
+        <cube row="7" column="9"> 
+            <type>11</type> 
+        </cube>  
+        <cube row="8" column="1"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="8" column="2"> 
+            <type>12</type> 
+        </cube>  
+        <cube row="8" column="4"> 
+            <type>12</type> 
+        </cube>  
+        <cube row="8" column="6"> 
+            <type>14</type> 
+        </cube>  
+        <cube row="8" column="8"> 
+            <type>12</type> 
+        </cube> 
+    </level>  
+    <level id="30" width="10" height="10">
+        <cube row="0" column="1"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="0" column="8"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="1" column="1"> 
+            <type>13</type> 
+        </cube>  
+        <cube row="1" column="4"> 
+            <type>11</type> 
+        </cube>  
+        <cube row="1" column="5"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="1" column="8"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="3" column="3"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="3" column="6"> 
+            <type>12</type> 
+        </cube>  
+        <cube row="4" column="1"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="4" column="8"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="5" column="1"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="5" column="8"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="6" column="3"> 
+            <type>10</type> 
+        </cube>  
+        <cube row="6" column="6"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="8" column="1"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="8" column="4"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="8" column="5"> 
+            <type>13</type> 
+        </cube>  
+        <cube row="8" column="8"> 
+            <type>11</type> 
+        </cube>  
+        <cube row="9" column="1"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="9" column="8"> 
+            <type>9</type> 
+        </cube> 
+    </level>  
+    <level id="31" width="10" height="10">
+        <cube row="0" column="0"> 
+            <type>12</type> 
+        </cube>  
+        <cube row="1" column="5"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="1" column="6"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="1" column="7"> 
+            <type>11</type> 
+        </cube>  
+        <cube row="2" column="2"> 
+            <type>11</type> 
+        </cube>  
+        <cube row="2" column="5"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="3" column="1"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="3" column="2"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="3" column="3"> 
+            <type>11</type> 
+        </cube>  
+        <cube row="3" column="5"> 
+            <type>12</type> 
+        </cube>  
+        <cube row="3" column="9"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="4" column="2"> 
+            <type>11</type> 
+        </cube>  
+        <cube row="5" column="7"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="6" column="0"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="6" column="4"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="6" column="6"> 
+            <type>11</type> 
+        </cube>  
+        <cube row="6" column="7"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="6" column="8"> 
+            <type>13</type> 
+        </cube>  
+        <cube row="7" column="4"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="7" column="7"> 
+            <type>12</type> 
+        </cube>  
+        <cube row="8" column="2"> 
+            <type>11</type> 
+        </cube>  
+        <cube row="8" column="3"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="8" column="4"> 
+            <type>9</type> 
+        </cube>  
+        <cube row="9" column="9"> 
+            <type>9</type>
+        </cube> 
+    </level> 
+</map>

@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E32E8799188119A7000C5B08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32E8798188119A7000C5B08 /* Foundation.framework */; };
+		E32E879B188119A7000C5B08 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32E879A188119A7000C5B08 /* CoreGraphics.framework */; };
+		E32E879D188119A7000C5B08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32E879C188119A7000C5B08 /* UIKit.framework */; };
+		E32E87A3188119A7000C5B08 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E32E87A1188119A7000C5B08 /* InfoPlist.strings */; };
+		E32E87A5188119A7000C5B08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E32E87A4188119A7000C5B08 /* main.m */; };
+		E32E87A9188119A7000C5B08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E32E87A8188119A7000C5B08 /* AppDelegate.m */; };
+		E32E87AC188119A7000C5B08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E32E87AA188119A7000C5B08 /* Main.storyboard */; };
+		E32E87AF188119A7000C5B08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E32E87AE188119A7000C5B08 /* ViewController.m */; };
+		E32E87B1188119A7000C5B08 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E32E87B0188119A7000C5B08 /* Images.xcassets */; };
+		E32E87B8188119A8000C5B08 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32E87B7188119A8000C5B08 /* XCTest.framework */; };
+		E32E87B9188119A8000C5B08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32E8798188119A7000C5B08 /* Foundation.framework */; };
+		E32E87BA188119A8000C5B08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32E879C188119A7000C5B08 /* UIKit.framework */; };
+		E32E87C2188119A8000C5B08 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E32E87C0188119A8000C5B08 /* InfoPlist.strings */; };
+		E32E87C4188119A8000C5B08 /* LightMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E32E87C3188119A8000C5B08 /* LightMeTests.m */; };
+		E32E87D018811BC7000C5B08 /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E32E87CF18811BC7000C5B08 /* MainScene.m */; };
+		E32E87E518814464000C5B08 /* map.xml in Resources */ = {isa = PBXBuildFile; fileRef = E32E87E418814464000C5B08 /* map.xml */; };
+		E3B45CEC18839E0500252EC6 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B45CEB18839E0500252EC6 /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E3B45CF21883A27400252EC6 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E3B45CED18839FFE00252EC6 /* libxml2.dylib */; };
+		E3B45CF51883DD9100252EC6 /* PlayingScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B45CF41883DD9100252EC6 /* PlayingScene.m */; };
+		E3B45CF81883E81900252EC6 /* LevelsScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B45CF71883E81900252EC6 /* LevelsScene.m */; };
+		E3B83AD51884FE66002D45CB /* LightMeCube.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B83ACF1884FE66002D45CB /* LightMeCube.m */; };
+		E3B83AD61884FE66002D45CB /* LightMeGame.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B83AD01884FE66002D45CB /* LightMeGame.m */; };
+		E3B83AD71884FE66002D45CB /* LightMeMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B83AD11884FE66002D45CB /* LightMeMatrix.m */; };
+		E3B83ADA188508E2002D45CB /* SettingScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B83AD9188508E2002D45CB /* SettingScene.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E32E87BB188119A8000C5B08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E32E878D188119A7000C5B08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E32E8794188119A7000C5B08;
+			remoteInfo = LightMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E32E8795188119A7000C5B08 /* LightMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E32E8798188119A7000C5B08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E32E879A188119A7000C5B08 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E32E879C188119A7000C5B08 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E32E87A0188119A7000C5B08 /* LightMe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LightMe-Info.plist"; sourceTree = "<group>"; };
+		E32E87A2188119A7000C5B08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E32E87A4188119A7000C5B08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E32E87A6188119A7000C5B08 /* LightMe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LightMe-Prefix.pch"; sourceTree = "<group>"; };
+		E32E87A7188119A7000C5B08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E32E87A8188119A7000C5B08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E32E87AB188119A7000C5B08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E32E87AD188119A7000C5B08 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E32E87AE188119A7000C5B08 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E32E87B0188119A7000C5B08 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E32E87B6188119A8000C5B08 /* LightMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E32E87B7188119A8000C5B08 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E32E87BF188119A8000C5B08 /* LightMeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LightMeTests-Info.plist"; sourceTree = "<group>"; };
+		E32E87C1188119A8000C5B08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E32E87C3188119A8000C5B08 /* LightMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightMeTests.m; sourceTree = "<group>"; };
+		E32E87CE18811BC7000C5B08 /* MainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScene.h; sourceTree = "<group>"; };
+		E32E87CF18811BC7000C5B08 /* MainScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScene.m; sourceTree = "<group>"; };
+		E32E87E418814464000C5B08 /* map.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = map.xml; sourceTree = "<group>"; };
+		E3B45CEA18839E0500252EC6 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		E3B45CEB18839E0500252EC6 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		E3B45CED18839FFE00252EC6 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		E3B45CEF1883A16900252EC6 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		E3B45CF31883DD9100252EC6 /* PlayingScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingScene.h; sourceTree = "<group>"; };
+		E3B45CF41883DD9100252EC6 /* PlayingScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingScene.m; sourceTree = "<group>"; };
+		E3B45CF61883E81900252EC6 /* LevelsScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelsScene.h; sourceTree = "<group>"; };
+		E3B45CF71883E81900252EC6 /* LevelsScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelsScene.m; sourceTree = "<group>"; };
+		E3B83ACF1884FE66002D45CB /* LightMeCube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LightMeCube.m; path = Model/LightMeCube.m; sourceTree = "<group>"; };
+		E3B83AD01884FE66002D45CB /* LightMeGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LightMeGame.m; path = Model/LightMeGame.m; sourceTree = "<group>"; };
+		E3B83AD11884FE66002D45CB /* LightMeMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LightMeMatrix.m; path = Model/LightMeMatrix.m; sourceTree = "<group>"; };
+		E3B83AD21884FE66002D45CB /* LightMeCube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LightMeCube.h; path = Model/LightMeCube.h; sourceTree = "<group>"; };
+		E3B83AD31884FE66002D45CB /* LightMeGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LightMeGame.h; path = Model/LightMeGame.h; sourceTree = "<group>"; };
+		E3B83AD41884FE66002D45CB /* LightMeMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LightMeMatrix.h; path = Model/LightMeMatrix.h; sourceTree = "<group>"; };
+		E3B83AD8188508E2002D45CB /* SettingScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingScene.h; sourceTree = "<group>"; };
+		E3B83AD9188508E2002D45CB /* SettingScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingScene.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E32E8792188119A7000C5B08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3B45CF21883A27400252EC6 /* libxml2.dylib in Frameworks */,
+				E32E879B188119A7000C5B08 /* CoreGraphics.framework in Frameworks */,
+				E32E879D188119A7000C5B08 /* UIKit.framework in Frameworks */,
+				E32E8799188119A7000C5B08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E32E87B3188119A8000C5B08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E32E87B8188119A8000C5B08 /* XCTest.framework in Frameworks */,
+				E32E87BA188119A8000C5B08 /* UIKit.framework in Frameworks */,
+				E32E87B9188119A8000C5B08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E32E878C188119A7000C5B08 = {
+			isa = PBXGroup;
+			children = (
+				E32E879E188119A7000C5B08 /* LightMe */,
+				E32E87BD188119A8000C5B08 /* LightMeTests */,
+				E32E8797188119A7000C5B08 /* Frameworks */,
+				E32E8796188119A7000C5B08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E32E8796188119A7000C5B08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E32E8795188119A7000C5B08 /* LightMe.app */,
+				E32E87B6188119A8000C5B08 /* LightMeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E32E8797188119A7000C5B08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3B45CEF1883A16900252EC6 /* libxml2.2.dylib */,
+				E3B45CED18839FFE00252EC6 /* libxml2.dylib */,
+				E32E8798188119A7000C5B08 /* Foundation.framework */,
+				E32E879A188119A7000C5B08 /* CoreGraphics.framework */,
+				E32E879C188119A7000C5B08 /* UIKit.framework */,
+				E32E87B7188119A8000C5B08 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E32E879E188119A7000C5B08 /* LightMe */ = {
+			isa = PBXGroup;
+			children = (
+				E32E87AA188119A7000C5B08 /* Main.storyboard */,
+				E32E87AD188119A7000C5B08 /* ViewController.h */,
+				E32E87AE188119A7000C5B08 /* ViewController.m */,
+				E32E87CE18811BC7000C5B08 /* MainScene.h */,
+				E32E87CF18811BC7000C5B08 /* MainScene.m */,
+				E3B83AD8188508E2002D45CB /* SettingScene.h */,
+				E3B83AD9188508E2002D45CB /* SettingScene.m */,
+				E3B45CF61883E81900252EC6 /* LevelsScene.h */,
+				E3B45CF71883E81900252EC6 /* LevelsScene.m */,
+				E3B45CF31883DD9100252EC6 /* PlayingScene.h */,
+				E3B45CF41883DD9100252EC6 /* PlayingScene.m */,
+				E32E87CD188119B1000C5B08 /* Model */,
+				E32E87E418814464000C5B08 /* map.xml */,
+				E32E87B0188119A7000C5B08 /* Images.xcassets */,
+				E3B8F3DF1882730C00FEC463 /* GDataXMLNode */,
+				E32E879F188119A7000C5B08 /* Supporting Files */,
+			);
+			path = LightMe;
+			sourceTree = "<group>";
+		};
+		E32E879F188119A7000C5B08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E32E87A7188119A7000C5B08 /* AppDelegate.h */,
+				E32E87A8188119A7000C5B08 /* AppDelegate.m */,
+				E32E87A0188119A7000C5B08 /* LightMe-Info.plist */,
+				E32E87A1188119A7000C5B08 /* InfoPlist.strings */,
+				E32E87A4188119A7000C5B08 /* main.m */,
+				E32E87A6188119A7000C5B08 /* LightMe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E32E87BD188119A8000C5B08 /* LightMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E32E87C3188119A8000C5B08 /* LightMeTests.m */,
+				E32E87BE188119A8000C5B08 /* Supporting Files */,
+			);
+			path = LightMeTests;
+			sourceTree = "<group>";
+		};
+		E32E87BE188119A8000C5B08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E32E87BF188119A8000C5B08 /* LightMeTests-Info.plist */,
+				E32E87C0188119A8000C5B08 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E32E87CD188119B1000C5B08 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E3B83AD31884FE66002D45CB /* LightMeGame.h */,
+				E3B83AD01884FE66002D45CB /* LightMeGame.m */,
+				E3B83AD41884FE66002D45CB /* LightMeMatrix.h */,
+				E3B83AD11884FE66002D45CB /* LightMeMatrix.m */,
+				E3B83AD21884FE66002D45CB /* LightMeCube.h */,
+				E3B83ACF1884FE66002D45CB /* LightMeCube.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E3B8F3DF1882730C00FEC463 /* GDataXMLNode */ = {
+			isa = PBXGroup;
+			children = (
+				E3B45CEA18839E0500252EC6 /* GDataXMLNode.h */,
+				E3B45CEB18839E0500252EC6 /* GDataXMLNode.m */,
+			);
+			name = GDataXMLNode;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E32E8794188119A7000C5B08 /* LightMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E32E87C7188119A8000C5B08 /* Build configuration list for PBXNativeTarget "LightMe" */;
+			buildPhases = (
+				E32E8791188119A7000C5B08 /* Sources */,
+				E32E8792188119A7000C5B08 /* Frameworks */,
+				E32E8793188119A7000C5B08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LightMe;
+			productName = LightMe;
+			productReference = E32E8795188119A7000C5B08 /* LightMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E32E87B5188119A8000C5B08 /* LightMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E32E87CA188119A8000C5B08 /* Build configuration list for PBXNativeTarget "LightMeTests" */;
+			buildPhases = (
+				E32E87B2188119A8000C5B08 /* Sources */,
+				E32E87B3188119A8000C5B08 /* Frameworks */,
+				E32E87B4188119A8000C5B08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E32E87BC188119A8000C5B08 /* PBXTargetDependency */,
+			);
+			name = LightMeTests;
+			productName = LightMeTests;
+			productReference = E32E87B6188119A8000C5B08 /* LightMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E32E878D188119A7000C5B08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = MengHua;
+				TargetAttributes = {
+					E32E87B5188119A8000C5B08 = {
+						TestTargetID = E32E8794188119A7000C5B08;
+					};
+				};
+			};
+			buildConfigurationList = E32E8790188119A7000C5B08 /* Build configuration list for PBXProject "LightMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E32E878C188119A7000C5B08;
+			productRefGroup = E32E8796188119A7000C5B08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E32E8794188119A7000C5B08 /* LightMe */,
+				E32E87B5188119A8000C5B08 /* LightMeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E32E8793188119A7000C5B08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E32E87E518814464000C5B08 /* map.xml in Resources */,
+				E32E87B1188119A7000C5B08 /* Images.xcassets in Resources */,
+				E32E87A3188119A7000C5B08 /* InfoPlist.strings in Resources */,
+				E32E87AC188119A7000C5B08 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E32E87B4188119A8000C5B08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E32E87C2188119A8000C5B08 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E32E8791188119A7000C5B08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3B83ADA188508E2002D45CB /* SettingScene.m in Sources */,
+				E3B45CF81883E81900252EC6 /* LevelsScene.m in Sources */,
+				E3B83AD71884FE66002D45CB /* LightMeMatrix.m in Sources */,
+				E3B83AD51884FE66002D45CB /* LightMeCube.m in Sources */,
+				E32E87AF188119A7000C5B08 /* ViewController.m in Sources */,
+				E32E87D018811BC7000C5B08 /* MainScene.m in Sources */,
+				E32E87A9188119A7000C5B08 /* AppDelegate.m in Sources */,
+				E3B45CF51883DD9100252EC6 /* PlayingScene.m in Sources */,
+				E3B45CEC18839E0500252EC6 /* GDataXMLNode.m in Sources */,
+				E3B83AD61884FE66002D45CB /* LightMeGame.m in Sources */,
+				E32E87A5188119A7000C5B08 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E32E87B2188119A8000C5B08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E32E87C4188119A8000C5B08 /* LightMeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E32E87BC188119A8000C5B08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E32E8794188119A7000C5B08 /* LightMe */;
+			targetProxy = E32E87BB188119A8000C5B08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E32E87A1188119A7000C5B08 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E32E87A2188119A7000C5B08 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E32E87AA188119A7000C5B08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E32E87AB188119A7000C5B08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E32E87C0188119A8000C5B08 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E32E87C1188119A8000C5B08 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E32E87C5188119A8000C5B08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E32E87C6188119A8000C5B08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E32E87C8188119A8000C5B08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LightMe/LightMe-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${SDKROOT}/usr/include/libxml2",
+				);
+				INFOPLIST_FILE = "LightMe/LightMe-Info.plist";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "menghua.cn.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E32E87C9188119A8000C5B08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LightMe/LightMe-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${SDKROOT}/usr/include/libxml2",
+				);
+				INFOPLIST_FILE = "LightMe/LightMe-Info.plist";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "menghua.cn.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E32E87CB188119A8000C5B08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LightMe.app/LightMe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LightMe/LightMe-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LightMeTests/LightMeTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "menghua.cn.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E32E87CC188119A8000C5B08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LightMe.app/LightMe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LightMe/LightMe-Prefix.pch";
+				INFOPLIST_FILE = "LightMeTests/LightMeTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "menghua.cn.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E32E8790188119A7000C5B08 /* Build configuration list for PBXProject "LightMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E32E87C5188119A8000C5B08 /* Debug */,
+				E32E87C6188119A8000C5B08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E32E87C7188119A8000C5B08 /* Build configuration list for PBXNativeTarget "LightMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E32E87C8188119A8000C5B08 /* Debug */,
+				E32E87C9188119A8000C5B08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E32E87CA188119A8000C5B08 /* Build configuration list for PBXNativeTarget "LightMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E32E87CB188119A8000C5B08 /* Debug */,
+				E32E87CC188119A8000C5B08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E32E878D188119A7000C5B08 /* Project object */;
+}

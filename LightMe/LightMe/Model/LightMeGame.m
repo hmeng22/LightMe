@@ -47,7 +47,7 @@
 
 - (LightMeCubeType)getCubeTypeAtRow:(NSInteger)row Column:(NSInteger)column
 {
-    return [self.matrix getCubeatRow:row Column:column].type;
+    return (int)[self.matrix getCubeatRow:row Column:column].type;
 }
 
 - (void)hitCube:(NSUInteger)index

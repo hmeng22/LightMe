@@ -36,8 +36,8 @@
 
 - (void)initScene
 {
-    int width = [self.game getWidth];
-    int height = [self.game getHeight];
+    int width = (int)[self.game getWidth];
+    int height = (int)[self.game getHeight];
     for (int row = 0; row < height; row++) {
         for (int column = 0; column < width; column++) {
             [self addCubeAtRow:row Column:column];
@@ -102,17 +102,17 @@
     }
     //SKSpriteNode *cubeNode = [SKSpriteNode spriteNodeWithColor:spriteColor size:CGSizeMake(30, 30)];
     SKSpriteNode *cubeNode = [SKSpriteNode spriteNodeWithImageNamed:imageName];
-    cubeNode.name = [NSString stringWithFormat:@"cubes%d", row * 10 + column];
+    cubeNode.name = [NSString stringWithFormat:@"cubes%ld", row * 10 + column];
     cubeNode.position = CGPointMake( 149 + column * 30, 320 - 25 - row * 30);
     [self addChild:cubeNode];
 }
 
 - (void)refreshFromIndex:(NSInteger)index
 {
-    int width = [self.game getWidth];
-    int height = [self.game getHeight];
+    int width = (int)[self.game getWidth];
+    int height = (int)[self.game getHeight];
     
-    int row = index / width;
+    int row = (int)index / width;
     int column = index % width;
     
     for (int j = 0; j < width; j++) {

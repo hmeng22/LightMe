@@ -36,7 +36,7 @@
             GDataXMLElement *levelElement = [levelElements objectAtIndex:levelNum];
             
             if ([[levelElement name] isEqualToString:@"level"] && [[[levelElement attributeForName:@"id"] stringValue] intValue] == level) {
-                NSLog(@"level is : %d.", level);
+                NSLog(@"level is : %ld.", (long)level);
                 self.width = [[[levelElement attributeForName:@"width"] stringValue] intValue];
                 self.height = [[[levelElement attributeForName:@"height"] stringValue] intValue];
                 self.isCompleted = FALSE;
@@ -166,7 +166,7 @@
         self.isCompleted = [self checkMatrix];
         
     } else
-        NSLog(@"没有 %d 节点.", index);
+        NSLog(@"没有 %ld 节点.", (long)index);
    
 }
 
@@ -184,8 +184,8 @@ static const int direction[4][4] = {{0,-1},{-1,0},{0,1},{1,0}};
 
 - (BOOL)lightLineAtRow:(NSInteger)row Column:(NSInteger)column Direction:(NSInteger)dir
 {
-    int nextRow = row + direction[dir][0];
-    int nextColumn = column + direction[dir][1];
+    int nextRow = (int)row + direction[dir][0];
+    int nextColumn = (int)column + direction[dir][1];
     //NSLog(@"Row:%d, Column:%d. Type:%d",nextRow,nextColumn,[self getCubeatRow:nextRow Column:nextColumn].type);
     if (nextRow >= 0 && nextRow < self.height && nextColumn >= 0 && nextColumn < self.width) {
         if ([self getCubeatRow:nextRow Column:nextColumn].type == SPACE || [self getCubeatRow:nextRow Column:nextColumn].type == BRIGHT ) {
